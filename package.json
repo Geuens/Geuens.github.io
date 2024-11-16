@@ -74,6 +74,7 @@
     "test": "node scripts/test.js",
     "clean": "rimraf node_modules && rimraf build"
   },
+  "homepage": "https://geuens.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
