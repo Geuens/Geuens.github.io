@@ -13,6 +13,7 @@ const ConfirmationAndBuses = () => {
     transportation: 'no',
     dietaryRestrictions: ''
   });
+  const [submitStatus, setSubmitStatus] = useState('');
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -22,9 +23,26 @@ const ConfirmationAndBuses = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    try {
+      const response = await fetch('http://localhost:5000/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('Form submitted successfully');
+      } else {
+        setSubmitStatus('Error submitting form');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setSubmitStatus('Error submitting form');
+    }
   };
 
   return (
@@ -86,12 +104,15 @@ const ConfirmationAndBuses = () => {
 
           <button type="submit" className="confirmation-button">{t('submitButton')}</button>
         </form>
+        {submitStatus && <div className="status-message">{submitStatus}</div>}
       </div>
     </div>
   );
 };
 
 export default ConfirmationAndBuses;
+
+
 
 
 

@@ -48,7 +48,7 @@ function App() {
       <div className="App">
         {isDesktop && <LanguageSwitcher className="LanguageSwitcher-desktop" />}
         <nav className="desktop-menu">
-          <Link to="/wedding" className="App-link">{t('welcome')}</Link>
+          <Link to="/" className="App-link">{t('welcome')}</Link> {/* Link to the home route */}
           <Link to="/schedule" className="App-link">{t('schedule')}</Link>
           <Link to="/confirmation-and-buses" className="App-link">{t('confirmationAndBuses')}</Link>
           <Link to="/gifts" className="App-link">{t('gifts')}</Link>
@@ -68,7 +68,7 @@ function App() {
             <div className="mobile-nav">
               <LanguageSwitcher className="mobile-language-select" />
               <nav className="mobile-nav-links">
-                <a href="/wedding" onClick={() => setMenuOpen(false)}>{t('welcome')}</a>
+                <a href="/" onClick={() => setMenuOpen(false)}>{t('welcome')}</a> {/* Link to the home route */}
                 <a href="/schedule" onClick={() => setMenuOpen(false)}>{t('schedule')}</a>
                 <a href="/confirmation-and-buses" onClick={() => setMenuOpen(false)}>{t('confirmationAndBuses')}</a>
                 <a href="/gifts" onClick={() => setMenuOpen(false)}>{t('gifts')}</a>
@@ -79,6 +79,7 @@ function App() {
 
         <div className="main-content">
           <Routes>
+            <Route path="/" element={<Wedding />} /> {/* Default route for the welcome page */}
             <Route path="/wedding" element={<Wedding />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/confirmation-and-buses" element={<ConfirmationAndBuses />} />
@@ -91,4 +92,5 @@ function App() {
 }
 
 export default App;
+
 

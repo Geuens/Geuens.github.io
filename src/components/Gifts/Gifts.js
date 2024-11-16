@@ -10,8 +10,8 @@ const Gifts = () => {
   return (
     <div className="gifts-container">
       <div className="gifts-images">
-        <img src={foto5} alt="Wedding Image 1" className="gifts-image large" />
-        <img src={foto6} alt="Wedding Image 2" className="gifts-image small" />
+        <img src={foto5} alt="Wedding celebration" className="gifts-image large" />
+        <img src={foto6} alt="Wedding ceremony details" className="gifts-image small" />
         <div className="gifts-text-overlay">
           <h1 className="gifts-title">{t('giftsTitle')}</h1>
           <p className="gifts-text">{t('giftsText')}</p>
