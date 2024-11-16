@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de3a328c.css",
+    "main.js": "/static/js/main.9727c228.js",
+    "static/js/453.770c9077.chunk.js": "/static/js/453.770c9077.chunk.js",
+    "static/media/house.jpg": "/static/media/house.879fa39c871055f91d6c.jpg",
+    "static/media/foto_4.jpeg": "/static/media/foto_4.00e4abd8526d46a1ad72.jpeg",
+    "static/media/church.png": "/static/media/church.2521287755d102643169.png",
+    "static/media/foto_1.jpeg": "/static/media/foto_1.a0cc2342eb30e86e3e60.jpeg",
+    "static/media/foto_6.jpeg": "/static/media/foto_6.2ac5194427a618b6c22d.jpeg",
+    "static/media/foto_2.jpeg": "/static/media/foto_2.20ae8cb3369c96e2a7c5.jpeg",
+    "static/media/foto_3.jpeg": "/static/media/foto_3.b8bc54c55caea4e28bc2.jpeg",
+    "static/media/foto_7.jpeg": "/static/media/foto_7.246506509b4149a3beff.jpeg",
+    "static/media/bus.png": "/static/media/bus.87fad088a570c1b80252.png",
+    "index.html": "/index.html",
+    "main.de3a328c.css.map": "/static/css/main.de3a328c.css.map",
+    "main.9727c228.js.map": "/static/js/main.9727c228.js.map",
+    "453.770c9077.chunk.js.map": "/static/js/453.770c9077.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de3a328c.css",
+    "static/js/main.9727c228.js"
+  ]
+}
