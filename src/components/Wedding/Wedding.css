@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"),
+         url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"),
+         url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"),
+         url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body.korean {
+  font-family: 'MaruBuri', sans-serif;
+  color: #3B3C36;
+}
+
+.wedding-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wedding-photo {
+  flex: 1;
+  width: 500px;
+  margin-left: -5%;
+  margin-right: 10px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.wedding-content {
+  flex: 1;
+  width: 350px;
+  text-align: left;
+  margin-top: -10px; /* Start at the top of the photo */
+}
+
+.wedding-content h2 {
+  font-family: 'MaruBuri', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #3B3C36;
+  margin-top: 10px;
+  text-transform: none;
+}
+
+.wedding-content h3 {
+  font-family: 'MaruBuri', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3B3C36;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: justify;
+  text-transform: none;
+}
+
+.wedding-content h3 p {
+  margin-bottom: 15px; /* Adjust this value as needed for space between paragraphs */
+}
+
+.wedding-content h4 {
+  font-family: 'MaruBuri', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #8A9A5B; /* Pale olive green */
+  margin-top: 10px;
+  text-align: center;
+  text-transform: none;
+}
+
+/* Mobile Styles - Applies below 768px */
+@media (max-width: 768px) {
+  .wedding-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .wedding-photo {
+    width: 90%;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .wedding-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .wedding-content h2 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .wedding-content h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .wedding-content h4 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

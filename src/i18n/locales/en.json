@@ -1,0 +1,54 @@
+{
+  "wedding": "Wedding",
+  "welcome": "Welcome",
+  "schedule": "Schedule",
+  "confirmationAndBuses": "Confirmation and Buses",
+  "gifts": "Gifts",
+
+  "welcometext1": "Welcome, Family and Friends",
+
+  "welcometext2": "<p>It is with joy that we invite you to join us for a day we’ve long awaited. We are coming together in marriage, and we wish to have those dearest to us by our side.</p><p>This day will be marked by warmth, simplicity, and the strength of lasting vows. Here, you’ll find the details that matter—the ceremony, the celebration, and how you can be a part of this cherished time.</p><p>Your presence, laughter, and blessings mean the world to us. Please let us know if you’ll join us by confirming in the confirmation section.</p><p>Thank you for being with us on this journey.</p>",
+
+  "scheduleTitle": "Wedding Schedule",
+  "ceremonyTitle": "Wedding Ceremony",
+  "ceremonyTime": "12:00",
+  "ceremonyLocation": "Parroquia de la Asunción de Nuestra Señora, Pozuelo",
+
+  "busToReceptionTitle": "Transportation to Reception",
+  "busToReceptionTime": "13:15",
+  "busToReceptionLocation": "Hotel Pozuelo",
+
+  "receptionTitle": "Reception Celebration",
+  "receptionTime": "13:45",
+  "receptionApertif": "Aperitif: 13:45 - 15:00",
+  "receptionBanquet": "Banquet: 15:00 - 17:00",
+  "receptionParty": "Dancing & Festivities: 17:00 - 00:00",
+
+  "returnBusTitle": "Return Transportation to Hotel Pozuelo",
+  "returnBusTime": "00:00",
+  "returnBusLocation": "Hotel Pozuelo",
+
+
+
+  "giftsTitle": "Gifts",
+  "giftsText": "We are grateful to celebrate this special day with you. The wedding is fully paid by us, but if you wish to give a gift, you can do so through the following account:",
+  "giftsAccount": "ES 0000 0000 0000 0000",
+
+  "confirmAttendanceTitle": "Confirm Your Attendance",
+  "nameLabel": "Name",
+  "namePlaceholder": "Enter your name",
+  "attendingLabel": "Will you be attending?",
+  "attendingYes": "Yes",
+  "attendingNo": "No",
+  "transportationLabel": "Do you need transportation?",
+  "transportationYes": "Yes",
+  "transportationNo": "No",
+  "dietaryRestrictionsLabel": "Dietary Restrictions",
+  "dietaryRestrictionsPlaceholder": "Please specify if any",
+  "submitButton": "Submit",
+  "eventImageAlt2": "Event Image 2",
+  "eventImageAlt3": "Event Image 3",
+  "eventImageAlt4": "Event Image 4",
+  "eventImageAlt5": "Event Image 5"
+
+}

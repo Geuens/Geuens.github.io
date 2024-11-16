@@ -1,38 +1,189 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"),
+         url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"),
+         url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"),
+         url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
   text-align: center;
+  overflow-y: auto; /* Ensure only one main scrollbar */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start; /* Align content to the top */
+  text-transform: uppercase;
+}
+
+body.korean {
+  font-family: 'Maruburi', sans-serif; /* Apply Maruburi font */
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 1200px; /* Adjust max width for layout */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-link:hover {
+  color: #8A9A5B;
+}
+
+
+.main-content {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  overflow: visible;
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+}
+
+
+@media (min-width: 769px) {
+
+  .mobile-menu, .mobile-nav, .mobile-nav-select, .mobile-language-select {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+      width: 100%;
+      top: 0;
+      background-color: #f5f5f5; /* Ensures nav bar stays visible if needed */
+      z-index: 999;
+    }
+
+    .language-switcher {
+      margin-top: 30px;
+      top: 20px;
+      z-index: 999;
+      text-align: center;
+    }
+
+    .LanguageSwitcher-desktop{
+        display: block !important;
+        }
+}
+
+
+/* Mobile Styles - Only Visible Below 768px */
+@media (max-width: 768px) {
+  .desktop-menu, .LanguageSwitcher-desktop {
+    display: none !important;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .hamburger {
+    margin-top: 30px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #556B2F;
+  }
+
+  .mobile-nav {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15); /* Bottom-only external shadow */
+    overflow-y: overlay; /* Ensures scrollbar overlays */
+    max-height: 80vh;
+    z-index: 999;
+  }
+
+  .mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile-nav-links a {
+    font-size: 14px;
+    color: #556B2F;
+    text-decoration: none;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid #8A9A5B;
+  }
+
+  .mobile-nav-links a:last-child {
+    border-bottom: 0px;
+  }
+
+  .mobile-language-select {
+    width: auto;
+    padding: 5px;
+    border: 1px solid #8A9A5B;
+    border-radius: 3px;
+    background-color: #f5f5f5;
   }
 }
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px; /* Thinner scrollbar width */
+  height: 6px; /* Thinner scrollbar height for horizontal scroll */
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5; /* Track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B5C99A; /* Thumb color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8A9A5B; /* Slightly darker color on hover */
+}
+

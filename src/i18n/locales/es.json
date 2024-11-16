@@ -1,0 +1,53 @@
+{
+  "wedding": "Boda",
+  "welcome": "Bienvenidos",
+  "schedule": "Horario",
+  "confirmationAndBuses": "Confirmación y Autobuses",
+  "gifts": "Regalos",
+
+  "welcometext1": "Bienvenidos, familia y amigos",
+
+  "welcometext2": "<p>Con alegría te invitamos a ser parte de un día que hemos soñado con ganas. Nos unimos en matrimonio y queremos tener a nuestro lado a quienes llevamos en el corazón.</p><p>Este será un día sencillo y lleno de calidez, marcado por la fuerza de promesas significativas. Aquí encontrarás lo esencial: la ceremonia, la celebración y cómo puedes ser parte de este momento tan espcial.</p><p>Tu presencia, tu risa y tus oraciones son ya un regalo para nosotros. Confírmanos si estarás con nosotros en la sección de confirmación.</p><p>Gracias por acompañarnos en este camino.</p>",
+
+    "scheduleTitle": "Horario de la Boda",
+  "ceremonyTitle": "Ceremonia Nupcial",
+  "ceremonyTime": "12:00",
+  "ceremonyLocation": "Parroquia de la Asunción de Nuestra Señora, Pozuelo",
+
+  "busToReceptionTitle": "Transporte hacia la Recepción",
+  "busToReceptionTime": "13:15",
+  "busToReceptionLocation": "Hotel Pozuelo",
+
+  "receptionTitle": "Celebración de la Recepción",
+  "receptionTime": "13:45",
+  "receptionApertif": "Aperitivo: 13:45 - 15:00",
+  "receptionBanquet": "Banquete: 15:00 - 17:00",
+  "receptionParty": "Baile y Festividades: 17:00 - 00:00",
+
+  "returnBusTitle": "Regreso en Transporte al Hotel Pozuelo",
+  "returnBusTime": "00:00",
+  "returnBusLocation": "Hotel Pozuelo",
+
+  "giftsTitle": "Regalos",
+  "giftsText": "Estamos agradecidos de celebrar este día tan especial contigo. La boda está completamente cubierta por nosotros, pero si deseas hacer un regalo, puedes hacerlo a través de la siguiente cuenta:",
+  "giftsAccount": "ES 0000 0000 0000 0000",
+
+  "confirmAttendanceTitle": "Asistencia",
+  "nameLabel": "Nombre",
+  "namePlaceholder": "Introduce tu nombre",
+  "attendingLabel": "¿Asistirás?",
+  "attendingYes": "Sí",
+  "attendingNo": "No",
+  "transportationLabel": "¿Necesitas transporte?",
+  "transportationYes": "Sí",
+  "transportationNo": "No",
+  "dietaryRestrictionsLabel": "Restricciones Alimentarias",
+  "dietaryRestrictionsPlaceholder": "Especifica si tienes alguna",
+  "submitButton": "Enviar",
+  "eventImageAlt2": "Imagen del Evento 2",
+  "eventImageAlt3": "Imagen del Evento 3",
+  "eventImageAlt4": "Imagen del Evento 4",
+  "eventImageAlt5": "Imagen del Evento 5"
+
+
+}

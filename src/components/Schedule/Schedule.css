@@ -1,0 +1,124 @@
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.schedule-title {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: #8A9A5B;
+  text-transform: none;
+}
+
+.timeline {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  text-align: center;
+}
+
+/* Darker Olive Green for Timeline Line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #3B5323; /* Darker olive green */
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+/* Darker Olive Green for Timeline Step Markers */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #3B5323; /* Darker olive green */
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Adjust marker position for each timeline item */
+.timeline-item:nth-child(1)::before,
+.timeline-item:nth-child(2)::before,
+.timeline-item:nth-child(3)::before,
+.timeline-item:nth-child(4)::before {
+  top: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+.timeline-image {
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+/* Box Styling for Title and Content */
+.timeline-content {
+  background-color: #F4F4F4; /* Same as the background color */
+  border-radius: 2px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  text-align: center;
+  text-transform: none;
+  font-family: 'Maruburi', sans-serif;
+}
+
+.timeline-content h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  color: #556B2F;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+
+/* Apply MaruBuri font when .korean is applied to the body or .timeline-content */
+body.korean .timeline-content h2,
+.timeline-content.korean h2 {
+  font-family: 'Maruburi', serif;
+}
+
+.timeline-content p {
+  font-size: 15px;
+  color: #3B3C36;
+  margin: 2px 0;
+  line-height: 1.4;
+}
+
+
+
+
+
+
