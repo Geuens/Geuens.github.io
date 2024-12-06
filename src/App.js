@@ -24,12 +24,10 @@ function App() {
     document.body.className = i18n.language === 'ko' ? 'korean' : 'default';
   }, [i18n.language]);
 
-  // New effect to change the document title based on language
   useEffect(() => {
     document.title = 'Carlos & Soyeon';
   }, [t, i18n.language]);
 
-  // Wrap the handler in useCallback to ensure stability
   const handleOutsideClick = useCallback((e) => {
     if (!e.target.closest('.mobile-menu') && menuOpen) {
       setMenuOpen(false);
@@ -48,13 +46,12 @@ function App() {
       <div className="App">
         {isDesktop && <LanguageSwitcher className="LanguageSwitcher-desktop" />}
         <nav className="desktop-menu">
-          <Link to="/" className="App-link">{t('welcome')}</Link> {/* Link to the home route */}
+          <Link to="/" className="App-link">{t('welcome')}</Link>
           <Link to="/schedule" className="App-link">{t('schedule')}</Link>
           <Link to="/confirmation-and-buses" className="App-link">{t('confirmationAndBuses')}</Link>
           <Link to="/gifts" className="App-link">{t('gifts')}</Link>
         </nav>
 
-        {/* Mobile Hamburger and Dropdown Navigation */}
         <div className="mobile-menu">
           <button
             className="hamburger"
@@ -68,10 +65,10 @@ function App() {
             <div className="mobile-nav">
               <LanguageSwitcher className="mobile-language-select" />
               <nav className="mobile-nav-links">
-                <a href="/" onClick={() => setMenuOpen(false)}>{t('welcome')}</a> {/* Link to the home route */}
-                <a href="/schedule" onClick={() => setMenuOpen(false)}>{t('schedule')}</a>
-                <a href="/confirmation-and-buses" onClick={() => setMenuOpen(false)}>{t('confirmationAndBuses')}</a>
-                <a href="/gifts" onClick={() => setMenuOpen(false)}>{t('gifts')}</a>
+                <Link to="/" onClick={() => setMenuOpen(false)}>{t('welcome')}</Link>
+                <Link to="/schedule" onClick={() => setMenuOpen(false)}>{t('schedule')}</Link>
+                <Link to="/confirmation-and-buses" onClick={() => setMenuOpen(false)}>{t('confirmationAndBuses')}</Link>
+                <Link to="/gifts" onClick={() => setMenuOpen(false)}>{t('gifts')}</Link>
               </nav>
             </div>
           )}
@@ -79,7 +76,7 @@ function App() {
 
         <div className="main-content">
           <Routes>
-            <Route path="/" element={<Wedding />} /> {/* Default route for the welcome page */}
+            <Route path="/" element={<Wedding />} />
             <Route path="/wedding" element={<Wedding />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/confirmation-and-buses" element={<ConfirmationAndBuses />} />

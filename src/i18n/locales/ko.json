@@ -15,22 +15,22 @@
   "ceremonyLocation": "Parroquia de la Asunción de Nuestra Señora 성당, 포수엘로",
 
   "busToReceptionTitle": "리셉션 장소로 이동",
-  "busToReceptionTime": "13:15",
+  "busToReceptionTime": "13:30",
   "busToReceptionLocation": "포수엘로 호텔",
 
-  "receptionTitle": "리셉션 축하 행사",
+  "receptionTitle": "리셉션 축하 행사, La Gaivota, Aravaca",
   "receptionTime": "13:45",
   "receptionApertif": "애피타이저: 13:45 - 15:00",
   "receptionBanquet": "만찬: 15:00 - 17:00",
   "receptionParty": "춤과 축하: 17:00 - 00:00",
 
   "returnBusTitle": "포수엘로 호텔로 돌아가는 버스",
-  "returnBusTime": "00:00",
-  "returnBusLocation": "포수엘로 호텔",
+  "returnBusTime": "22:00",
+  "returnBusLocation": "포수엘로 호텔, Moncloa",
 
   "giftsTitle": "선물",
   "giftsText": "이 특별한 날을 함께해 주셔서 감사합니다. 결혼식은 저희가 모두 준비하였지만, 선물을 주고 싶으시다면 아래 계좌로 보내주실 수 있습니다:",
-  "giftsAccount": "ES 0000 0000 0000 0000",
+  "giftsAccount": "ES82 2100 3236 8722 0027 1248",
 
   "confirmAttendanceTitle": "참석 여부 확인",
   "nameLabel": "이름",
@@ -47,6 +47,9 @@
   "eventImageAlt2": "이벤트 이미지 2",
   "eventImageAlt3": "이벤트 이미지 3",
   "eventImageAlt4": "이벤트 이미지 4",
-  "eventImageAlt5": "이벤트 이미지 5"
+  "eventImageAlt5": "이벤트 이미지 5",
+
+  "confirmAttendanceurl": "출석 양식"
+
 
 }

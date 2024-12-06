@@ -15,22 +15,22 @@
   "ceremonyLocation": "Parroquia de la Asunción de Nuestra Señora, Pozuelo",
 
   "busToReceptionTitle": "Transporte hacia la Recepción",
-  "busToReceptionTime": "13:15",
+  "busToReceptionTime": "13:30",
   "busToReceptionLocation": "Hotel Pozuelo",
 
-  "receptionTitle": "Celebración de la Recepción",
+  "receptionTitle": "Celebración de la Recepción, La Gaivota, Aravaca",
   "receptionTime": "13:45",
   "receptionApertif": "Aperitivo: 13:45 - 15:00",
   "receptionBanquet": "Banquete: 15:00 - 17:00",
   "receptionParty": "Baile y Festividades: 17:00 - 00:00",
 
   "returnBusTitle": "Regreso en Transporte al Hotel Pozuelo",
-  "returnBusTime": "00:00",
-  "returnBusLocation": "Hotel Pozuelo",
+  "returnBusTime": "22:00",
+  "returnBusLocation": "Hotel Pozuelo y Moncloa",
 
   "giftsTitle": "Regalos",
   "giftsText": "Estamos agradecidos de celebrar este día tan especial contigo. La boda está completamente cubierta por nosotros, pero si deseas hacer un regalo, puedes hacerlo a través de la siguiente cuenta:",
-  "giftsAccount": "ES 0000 0000 0000 0000",
+  "giftsAccount": "ES82 2100 3236 8722 0027 1248",
 
   "confirmAttendanceTitle": "Asistencia",
   "nameLabel": "Nombre",
@@ -47,7 +47,9 @@
   "eventImageAlt2": "Imagen del Evento 2",
   "eventImageAlt3": "Imagen del Evento 3",
   "eventImageAlt4": "Imagen del Evento 4",
-  "eventImageAlt5": "Imagen del Evento 5"
+  "eventImageAlt5": "Imagen del Evento 5",
+
+  "confirmAttendanceurl": "Formulario de Asistencia"
 
 
 }

@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import './Schedule.css';
 import churchImage from '../resources/church.png'; // Ensure the path is correct
 import busImage from '../resources/bus.png';
-import houseImage from '../resources/house.jpg';
+import houseImage from '../resources/house.png';
 
 const Schedule = () => {
   const { t } = useTranslation();

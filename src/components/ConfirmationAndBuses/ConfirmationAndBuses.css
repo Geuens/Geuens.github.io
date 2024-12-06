@@ -66,48 +66,29 @@
   margin: 10px 0;
 }
 
-.confirmation-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.confirmation-label {
-  font-family: 'MaruBuri', sans-serif;
+.formulario-asistencia-link {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 12px 24px;
+  background-color: #8A9A5B; /* Matches existing color scheme */
+  color: #f5f5f5; /* Complementary light text color */
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; /* Consistent font */
   font-size: 16px;
-  color: #3B3C36;
-  margin: 10px 0 5px;
-  text-align: left;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.confirmation-input,
-.confirmation-select {
-  font-family: 'MaruBuri', sans-serif;
-  font-size: 16px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  margin-bottom: 15px;
-  color: #333;
+.formulario-asistencia-link:hover {
+  background-color: #556B2F; /* Darker green for hover effect */
+  color: #ffffff; /* Ensure text remains visible */
 }
 
-.confirmation-input::placeholder {
-  color: #888;
-}
 
-.confirmation-button {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  color: #FFF;
-  background-color: #8A9A5B;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.confirmation-button:hover {
-  background-color: #556B2F;
-}
 
 /* Mobile Styles - Only Visible Below 768px */
 @media (max-width: 768px) {
@@ -142,21 +123,8 @@
     font-size: 24px; /* Slightly smaller for mobile */
   }
 
-  .confirmation-label {
-    font-size: 14px; /* Adjust font size for readability */
-  }
+ }
 
-  .confirmation-input,
-  .confirmation-select {
-    font-size: 14px;
-    padding: 6px;
-  }
-
-  .confirmation-button {
-    font-size: 16px;
-    padding: 8px 16px;
-  }
-}
 
 
 
